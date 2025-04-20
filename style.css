@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+body {
+  background-color: #FFC79C;
+  font-family: "Fira Code", monospace;
+  font-style: normal;
+}
+
+.top-nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  width: 70%;
+}
+
+.side-nav-bar {
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.section {
+  border-radius: 5px;
+  margin-top: 55px;
+  margin-left: 25%;
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: wavy underline;
+  opacity: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
