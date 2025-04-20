@@ -29,6 +29,22 @@ body {
   width: 50%;
 }
 
+.up {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+}
+
+button {
+  background-color: orange;
+  border: solid;
+}
+
 a {
   text-decoration: underline;
   color: black;
