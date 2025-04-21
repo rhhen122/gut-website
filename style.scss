@@ -30,7 +30,7 @@ body {
     width: 50%;
 }
 .up {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     margin: 20px;
@@ -42,6 +42,15 @@ body {
 button {
     background-color: orange;
     border: solid;
+}
+.download-box {
+    padding-left: 10px;
+    border: solid;
+    margin-top: 55px;
+    margin-left: 25%;
+    width: 50%;
+    background-color: #ff7301;
+    margin-bottom: 20px;
 }
 
 
