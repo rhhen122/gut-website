@@ -47,12 +47,21 @@
             <p>Now type 'curl -O ' and paste in your link. And if need be replace 'curl -O ' with 'wget '</p>
             <img src="/media/Install-Image3.png" height="40px" style="display: block; margin: auto; padding: 10px; border: solid;">
             <h3> ::: Gut: The Basics: Installing: Via Website</h3>
-            <p>To Download Gut from our website press on the top option on the download page of our option.</p>
+            <p>To Download Gut from our website press on the top option on the download page.</p>
             <h2> :: Gut: The Basics: Compiling</h2>
             <p>If your on MacOS then go to the MacOS section</p>
             <p>Same for Linux, Go to the Linux section</p>
             <h3> ::: Gut: The Basics: Compiling: Mac</h3>
             <p>First we need to install the 'Go Compiler'. We can do this with: 'brew install go' if you don't have brew, install it <a href="http://brew.sh/">here.</a></p>
+            <img src="/media/Install-Image4.png" height="30px" style="display: block; margin: auto; padding: 10px; border: solid;">
+            <p>Now 'cd' into 'gut' and run 'go build'. This will compile the file & install all nessacary packages.</p>
+            <h3> ::: Gut: The Basics: Compiling: Linux</h3>
+            <p>Install the 'Go Compiler' with 'sudo apt install golang-go' or on Arch install with 'pacman -Sy go'</p>
+            <img src="/media/Install-Image4.png" height="30px" style="display: block; margin: auto; padding: 10px; border: solid;">
+            <p>Now 'cd' into 'gut' and run 'go build'. This will compile the file & install all nessacary packages.</p>
+            <h2> :: Gut: The Basics: Use</h2>
+            <p>If all has gone right you should have a file called 'Gut' spat out at you. You can make this a command by placing it inside of your '/bin' folder or by using 'go install', however I prefer to use 'alias'. You can use and alias by adding the following to either your '.zshrc' or '.bashrc' file: 'alias gut='your/path/to/gut/file/here' '</p>
+            <p>Either way your finally here!! You can now get to using Gut!</p>
             <br>
         </div>
     </article>
