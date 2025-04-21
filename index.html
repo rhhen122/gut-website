@@ -6,11 +6,12 @@
 </head>
 <body>
     <article class="top-nav-bar">
-        <a href="/"><img src="gut_logo_bg.png" height="100" id="main"></a>
+        <a href="/"><img src="gut_logo_bg.png" height="100" class="icon"></a>
     </article>
     <a href="#main"><button class="up"> ^ </button></a>
+    <p class="name">Made by Roky Henderson</p>
     <article class="section">
-        <div>
+        <div id="main">
             <h1>Gut: Main</h1>
         <p>This is <u>Gut</u> a <b>git</b> managment tool for people who don't like to spend their time diving into cmd tools.</p>
         <p>Git is version control history cli and server-side project made by Linus Torvalds. Git is used by many projects you use from day-to-day as a developer, such as:</p>
@@ -19,7 +20,6 @@
         <p> - Sublime Merger</p>
         <br>
         <p>Gut makes it easy to stage commits and push them with a simple CLI. Extremely basic and makes it easy to use git without learning annoying syntax that makes you want to rip your hair out.</p>
-        <p>Gut makes it easy to learn due to its both online & offline man-pages!</p>
         <p>Gut makes it easy to create your own git repos, whether it be locally or on a server it makes creating and monitoring your commits easy.</p>
         <p>Gut is a play on git. The very nasty & horrible CLI that it is, now inherently git isn't a bad platform simply its exsisting CLI is.</p>
         <img src="Main-Image.png" height="200px" style="display: block; margin: auto; padding: 10px;">
@@ -38,8 +38,21 @@
             <h1>Gut: The Basics</h1>
             <p>Even if your familiar with git you still can't use Gut straight out of the box.</p>
             <p>Here are some guides that ive called the basics! If you need anymore help you can refer to the wiki.</p>
-            <h2>:: Gut: The Basics: Installing</h2>
+            <h2> :: Gut: The Basics: Installing</h2>
+            <h3> ::: Gut: The Basics: Installing: Via CMD</h3>
             <p>You can either install Gut via the command-line or via our website. We suggest using the command-line for a cleaner & easier install. However if you are not comfortable using the command-line then thats ok, feel free too use one of our install buttons</p>
+            <img src="/media/Install-Image.png" height="200px" style="display: block; margin: auto; padding: 10px; border: solid; ">
+            <p>Click on 'Copy Link Address' and now enter your CMD/Terminal. For me on MacOS I do that via SpotLight. Press <img src="media/mac-command-svgrepo-com.svg" height="20px"> + [SPACE] . Now Type 'Terminal' & hit enter.</p>
+            <img src="/media/Install-Image2.png" height="100px" style="display: block; margin: auto; padding: 10px; border: solid;">
+            <p>Now type 'curl -O ' and paste in your link. And if need be replace 'curl -O ' with 'wget '</p>
+            <img src="/media/Install-Image3.png" height="40px" style="display: block; margin: auto; padding: 10px; border: solid;">
+            <h3> ::: Gut: The Basics: Installing: Via Website</h3>
+            <p>To Download Gut from our website press on the top option on the download page of our option.</p>
+            <h2> :: Gut: The Basics: Compiling</h2>
+            <p>If your on MacOS then go to the MacOS section</p>
+            <p>Same for Linux, Go to the Linux section</p>
+            <h3> ::: Gut: The Basics: Compiling: Mac</h3>
+            <p>First we need to install the 'Go Compiler'. We can do this with: 'brew install go' if you don't have brew, install it <a href="http://brew.sh/">here.</a></p>
             <br>
         </div>
     </article>
